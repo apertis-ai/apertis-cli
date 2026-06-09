@@ -1,5 +1,9 @@
 # Apertis CLI
 
+[![npm](https://img.shields.io/npm/v/@apertis/cli.svg)](https://www.npmjs.com/package/@apertis/cli)
+[![CI](https://github.com/apertis-ai/apertis-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/apertis-ai/apertis-cli/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/@apertis/cli.svg)](./LICENSE)
+
 `apertis` — a tiny CLI for the [Apertis](https://apertis.ai) API gateway. See your
 usage and spend, list 500+ models, and **benchmark latency, throughput, and real
 measured cost** across models — straight from your terminal.
