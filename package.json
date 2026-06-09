@@ -1,0 +1,49 @@
+{
+  "name": "@apertis/cli",
+  "version": "0.1.0",
+  "description": "Apertis CLI — usage, cost, and model benchmarks for the Apertis API gateway (500+ models, OpenAI-compatible).",
+  "keywords": [
+    "apertis",
+    "llm",
+    "cli",
+    "usage",
+    "cost",
+    "benchmark",
+    "openai-compatible",
+    "ai-gateway"
+  ],
+  "homepage": "https://apertis.ai",
+  "author": {
+    "name": "Apertis",
+    "email": "hi@apertis.ai",
+    "url": "https://apertis.ai"
+  },
+  "type": "module",
+  "bin": {
+    "apertis": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsup": "^8.2.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
